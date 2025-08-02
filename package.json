@@ -1,0 +1,14 @@
+{
+  "name": "utg-frontend",
+  "version": "1.0.0",
+  "description": "UTG Frontend - Implementation #1",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "test": "echo \"Basic frontend functionality - no automated tests yet\" && exit 0"
+  },
+  "keywords": ["frontend", "web", "utg"],
+  "author": "",
+  "license": "ISC"
+}
