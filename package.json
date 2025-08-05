@@ -1,0 +1,43 @@
+{
+  "name": "utg-frontend",
+  "version": "1.0.0",
+  "description": "UTG - UBS Frontend System",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000 --bind 0.0.0.0",
+    "start-win": "python -m http.server 8000",
+    "serve": "npm run start",
+    "dev": "npm run start",
+    "build": "echo 'Build process - static files ready for deployment'",
+    "test": "echo 'Tests would go here'",
+    "lint": "echo 'Linting would go here'",
+    "format": "echo 'Code formatting would go here'"
+  },
+  "keywords": [
+    "frontend",
+    "web",
+    "dashboard",
+    "ubs",
+    "utg",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "UTG Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaoshideu/utg-frontend.git"
+  },
+  "homepage": "https://github.com/xiaoshideu/utg-frontend#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "devDependencies": {},
+  "dependencies": {}
+}
